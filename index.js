@@ -5,7 +5,7 @@ import productRoute from "./routes/product.route.js";
 
 import Product from "./product.model.js";
 import mongoose from 'mongoose'
-const uri = "mongodb+srv://saad586305:19TtzsOAs34TkdaG@cluster0.t4najou.mongodb.net/Node-Api?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "";
 
 const app = express();
 app.use(express.json())
